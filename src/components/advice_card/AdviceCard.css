@@ -1,0 +1,70 @@
+.advice-card {
+  background-color: rgba(92, 92, 116, 0.3);
+  backdrop-filter: blur(5px);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 95%;
+  padding: 50px 25px;
+  border-radius: 50px;
+}
+
+.advice {
+  font-size: 1.7rem;
+}
+
+.new__button {
+  font-size: 1.2rem;
+  border: 1px solid #fff;
+  padding: 10px 25px;
+  margin-top: 30px;
+  border-radius: 50px;
+  transition: 0.2s;
+  font-weight: 200;
+  cursor: pointer;
+}
+
+.new__button:hover {
+  background-color: #f1f1f1;
+  color: rgb(92, 92, 116);
+}
+
+.advice::selection,
+.new__button::selection {
+  background-color: #f1f1f1;
+  color: rgb(92, 92, 116);
+}
+
+.new__button:hover::selection {
+  background-color: rgb(92, 92, 116);
+  color: #f1f1f1;
+}
+
+@media (min-width: 768px) {
+  .advice-card {
+    width: 70%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .advice-card {
+    width: 60%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .advice-card {
+    width: 40%;
+  }
+
+  .advice {
+    font-size: 1.9rem;
+  }
+
+  .new__button {
+    font-size: 1.3rem;
+  }
+}
