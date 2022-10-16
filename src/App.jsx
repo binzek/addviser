@@ -7,6 +7,7 @@ import Loader from "./components/loader/Loader";
 function App() {
   const [loading, setLoading] = useState(false);
 
+  // 1 second loading animation for website
   useEffect(() => {
     setLoading(true);
     setTimeout(() => {
@@ -14,6 +15,7 @@ function App() {
     }, 1000);
   }, []);
 
+  // return loader if loading is true. else return advice card and footer
   if (loading) {
     return (
       <div className="app">
