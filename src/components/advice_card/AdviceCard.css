@@ -17,6 +17,11 @@
   font-size: 1.7rem;
 }
 
+.advice__not-found {
+  color: #e34234;
+  font-weight: 600;
+}
+
 .new__button {
   font-size: 1.2rem;
   border: 1px solid #fff;
