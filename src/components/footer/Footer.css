@@ -1,0 +1,26 @@
+.footer {
+  margin-top: auto;
+  padding: 15px 0;
+}
+
+.footer > p {
+  color: #f1f1f1;
+  font-size: 0.8rem;
+}
+
+.footer > p > a {
+  color: #f1f1f1;
+  font-weight: 600;
+}
+
+@media (min-width: 768px) {
+  .footer > p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .footer > p {
+    font-size: 1rem;
+  }
+}
