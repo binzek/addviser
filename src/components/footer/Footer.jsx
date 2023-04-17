@@ -6,7 +6,7 @@ function Footer() {
     <div className="footer">
       <p className="attribution">
         Designed and Developed by{" "}
-        <a href="https://wajid.tech" target="_blank" rel="noopener noreferrer">
+        <a href="https://wajid.me" target="_blank" rel="noopener noreferrer">
           Wajid
         </a>
       </p>

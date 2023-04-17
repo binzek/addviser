@@ -1,49 +1,54 @@
-# Addviser
+# Addviser | Get an advice every second
 
-Addviser is a web application built using React that provides users with a stream of helpful advice, tips, and life hacks. The app utilizes the **Advice Slip API** and Axios for API calls to dynamically generate new pieces of advice with just the click of a button. The app is styled using plain CSS. This project serves as a learning opportunity for the use of APIs in React projects using Axios.
+Addviser is a React based web application that can provide tips, advices and life hacks at random.
 
-Check out the live demo at [addviser.netlify.app](https://addviser.netlify.app)
+## Usage
 
-## Key Features
+- Visit the **[Live Site](https://addviser.wajid.me)**
+- Click _Get New Advice_ button to fetch new advice
+- Consider [buying me a coffee](https://www.buymeacoffee.com/wajidnv) by clicking the coffee button in the bottom right corner 😌
 
-- Dynamic advice generation: Utilizes the Advice Slip API and Axios for API calls to provide users with a stream of new and diverse pieces of advice.
+## Try Locally
 
-- Clean and minimal user interface: Designed with a clean and minimal user interface that provides an intuitive and user-friendly experience.
+Open terminal and enter the commands
 
-- Built with React: Developed using the React library, ensuring efficient and effective code that is easy to maintain.
-
-- Styled with plain CSS: The app is styled using plain CSS, providing a simple and efficient way to customize the look and feel of the application.
-
-## Getting Started
-
-To get started with Addviser, follow these steps:
-
-1. Clone the repository to your local machine:
-
-```shell
+```
 $ git clone https://github.com/wajid-nv/addviser.git
-```
 
-2. Navigate to the project directory:
-
-```shell
 $ cd addviser
-```
 
-3. Install the required dependencies:
-
-```shell
 $ npm install
-```
 
-4. Start the development server:
-
-```shell
 $ npm start
 ```
 
-5. Visit http://localhost:3000 in your web browser to access the app.
+Visit https://localhost:3000 on your browser
 
-## Contributing
+## Things I used
 
-We welcome contributions to the Addviser project. If you have a bug fix, feature request, or other suggestion, please open a pull request.
+- React.js
+- Plain CSS
+- AdviceSlip API
+- Axios
+- Google fonts
+- Buy Me a Coffee
+
+## Things I learned
+
+As it's the first react project with API implementation and logical programming that I am working on, I faced a lot of challenges through out the process. All problems led me to learn and practice new things.
+
+- Working with APIs and data fetching (Axios)
+- How to actually use React hooks like _useEffect_
+- Conditional rendering and other logical stuffs
+- Javascript concepts such as Promises, etc.
+- Attractive styling with CSS and other UI related things
+- What is and how to use [Buy Me a Coffee](https://www.buymeacoffee.com/)
+- Building and deploying React apps efficiently
+
+### Problem / Bug
+
+- The animation of new advice loading is hardcoded to 1 second as I couldn't figure out why my implementation of loader while fetching the data fails. _Will fix on next update_.
+
+### Acknowledgment
+
+[This video](https://www.youtube.com/watch?v=o5CdCETh8cQ) on youtube helped me to get started with the project.
