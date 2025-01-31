@@ -4,7 +4,7 @@ Addviser is a React based web application that can provide tips, advices and lif
 
 ## Usage
 
-- Visit the **[Live Site](https://addviser.wajid.me)**
+- Visit the **[Live Site](https://addviser.live.binzek.com/)**
 - Click _Get New Advice_ button to fetch new advice
 - Consider [buying me a coffee](https://www.buymeacoffee.com/wajidnv) by clicking the coffee button in the bottom right corner 😌
 
